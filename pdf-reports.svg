@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/>
+      <stop offset="50%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="reportGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="pdfGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <filter id="shadow4" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.1"/>
+    </filter>
+    <filter id="pdfShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#eef2ff"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="1160" height="80" rx="12" fill="url(#headerGrad4)" filter="url(#shadow4)"/>
+  <text x="60" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.8)">🤖</text>
+  <text x="85" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="white">AWS Enterprise Database Migration Analyzer AI v3.0</text>
+  <text x="60" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.7)">Professional-Grade Migration Analysis • AI-Powered Insights • Real-time AWS Integration</text>
+  
+  <!-- Tabs -->
+  <rect x="20" y="115" width="1160" height="40" rx="8" fill="white" filter="url(#shadow4)"/>
+  <text x="45" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">📊 Dashboard</text>
+  <text x="150" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🧠 AI Insights</text>
+  <text x="260" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🌐 Network</text>
+  <text x="355" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">💰 Cost Analysis</text>
+  <text x="475" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">💻 OS Perf</text>
+  <text x="565" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🎯 Sizing</text>
+  <text x="640" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🗄️ FSx</text>
+  <text x="700" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🤖 Agents</text>
+  <rect x="765" y="120" width="85" height="30" rx="6" fill="url(#reportGrad)"/>
+  <text x="780" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="white">📄 Reports</text>
+  
+  <!-- Reports Header Banner -->
+  <rect x="20" y="170" width="1160" height="70" rx="12" fill="url(#reportGrad)" filter="url(#shadow4)"/>
+  <text x="50" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)">📄</text>
+  <text x="75" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="white">Professional PDF Reports</text>
+  <text x="50" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.85)">Generate comprehensive, enterprise-grade PDF reports with detailed migration analysis, cost breakdowns, and professional formatting</text>
+  
+  <!-- Report Type Selection -->
+  <rect x="20" y="255" width="380" height="425" rx="12" fill="white" filter="url(#shadow4)"/>
+  <text x="40" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">Select Report Type</text>
+  
+  <!-- Executive Report Option -->
+  <rect x="40" y="310" width="340" height="90" rx="10" fill="#f0fdf4" stroke="#10b981" stroke-width="2"/>
+  <circle cx="65" cy="355" r="12" fill="#10b981"/>
+  <circle cx="65" cy="355" r="5" fill="white"/>
+  <text x="90" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e293b">📊 Executive Summary Report</text>
+  <text x="90" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">High-level overview for leadership and</text>
+  <text x="90" y="377" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">stakeholders with key metrics and ROI</text>
+  
+  <!-- Technical Report Option -->
+  <rect x="40" y="415" width="340" height="90" rx="10" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="65" cy="460" r="12" fill="white" stroke="#d1d5db" stroke-width="2"/>
+  <text x="90" y="445" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e293b">🔧 Technical Specification Report</text>
+  <text x="90" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">Detailed implementation guide for</text>
+  <text x="90" y="482" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">engineering and operations teams</text>
+  
+  <!-- Comprehensive Report Option -->
+  <rect x="40" y="520" width="340" height="90" rx="10" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="65" cy="565" r="12" fill="white" stroke="#d1d5db" stroke-width="2"/>
+  <text x="90" y="550" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e293b">📑 Comprehensive Full Report</text>
+  <text x="90" y="570" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">Complete analysis combining executive</text>
+  <text x="90" y="587" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">summary and technical details</text>
+  
+  <!-- Generate Button -->
+  <rect x="40" y="625" width="340" height="45" rx="8" fill="url(#reportGrad)"/>
+  <text x="130" y="653" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="white">📥 Generate PDF Report</text>
+  
+  <!-- PDF Preview Area -->
+  <rect x="415" y="255" width="765" height="425" rx="12" fill="white" filter="url(#shadow4)"/>
+  <text x="435" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e293b">Report Preview</text>
+  
+  <!-- PDF Document Preview -->
+  <rect x="520" y="315" width="280" height="350" rx="4" fill="white" filter="url(#pdfShadow)" stroke="#e5e7eb"/>
+  
+  <!-- PDF Header -->
+  <rect x="520" y="315" width="280" height="50" fill="#1e3a8a"/>
+  <text x="540" y="345" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="white">AWS Migration Analysis</text>
+  <text x="540" y="358" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="rgba(255,255,255,0.8)">Executive Strategic Report</text>
+  
+  <!-- PDF Icon -->
+  <rect x="750" y="325" width="35" height="35" rx="4" fill="url(#pdfGrad)"/>
+  <text x="758" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="white">PDF</text>
+  
+  <!-- PDF Content Lines -->
+  <text x="540" y="390" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#1e40af">Executive Summary</text>
+  <rect x="540" y="400" width="240" height="6" rx="2" fill="#e5e7eb"/>
+  <rect x="540" y="410" width="220" height="6" rx="2" fill="#e5e7eb"/>
+  <rect x="540" y="420" width="200" height="6" rx="2" fill="#e5e7eb"/>
+  
+  <text x="540" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#1e40af">Current System Analysis</text>
+  <rect x="540" y="460" width="240" height="40" rx="4" fill="#f8fafc" stroke="#e5e7eb"/>
+  
+  <text x="540" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#1e40af">AWS Architecture</text>
+  <rect x="540" y="530" width="240" height="6" rx="2" fill="#e5e7eb"/>
+  <rect x="540" y="540" width="200" height="6" rx="2" fill="#e5e7eb"/>
+  <rect x="540" y="550" width="180" height="6" rx="2" fill="#e5e7eb"/>
+  
+  <text x="540" y="580" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#1e40af">Financial Analysis</text>
+  <rect x="540" y="590" width="110" height="55" rx="4" fill="#f0fdf4" stroke="#10b981"/>
+  <rect x="660" y="590" width="110" height="55" rx="4" fill="#fef3c7" stroke="#f59e0b"/>
+  
+  <!-- Page indicator -->
+  <text x="650" y="660" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="#94a3b8">Page 1 of 12</text>
+  
+  <!-- Report Details Panel -->
+  <rect x="830" y="315" width="330" height="350" rx="8" fill="#f8fafc"/>
+  <text x="850" y="345" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1e293b">Report Details</text>
+  
+  <text x="850" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Report Type</text>
+  <text x="850" y="392" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="500" fill="#1e293b">Executive Summary</text>
+  
+  <text x="850" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Estimated Pages</text>
+  <text x="850" y="437" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="500" fill="#1e293b">12 pages</text>
+  
+  <text x="850" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">File Size</text>
+  <text x="850" y="482" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="500" fill="#1e293b">~2.4 MB</text>
+  
+  <text x="850" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Sections Included</text>
+  <rect x="850" y="520" width="8" height="8" rx="1" fill="#10b981"/>
+  <text x="865" y="528" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#374151">Executive Summary</text>
+  <rect x="850" y="540" width="8" height="8" rx="1" fill="#10b981"/>
+  <text x="865" y="548" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#374151">System Analysis</text>
+  <rect x="850" y="560" width="8" height="8" rx="1" fill="#10b981"/>
+  <text x="865" y="568" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#374151">AWS Architecture</text>
+  <rect x="850" y="580" width="8" height="8" rx="1" fill="#10b981"/>
+  <text x="865" y="588" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#374151">Financial Analysis</text>
+  <rect x="850" y="600" width="8" height="8" rx="1" fill="#10b981"/>
+  <text x="865" y="608" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#374151">Risk Assessment</text>
+  <rect x="850" y="620" width="8" height="8" rx="1" fill="#10b981"/>
+  <text x="865" y="628" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#374151">Implementation Timeline</text>
+  
+  <!-- Download Stats -->
+  <rect x="1000" y="375" width="140" height="55" rx="8" fill="white" stroke="#e5e7eb"/>
+  <text x="1020" y="400" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#64748b">Reports Generated</text>
+  <text x="1020" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#4f46e5">1,247</text>
+  
+  <rect x="1000" y="445" width="140" height="55" rx="8" fill="white" stroke="#e5e7eb"/>
+  <text x="1020" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#64748b">This Session</text>
+  <text x="1020" y="490" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#10b981">3</text>
+</svg>

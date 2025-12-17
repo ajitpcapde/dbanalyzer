@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/>
+      <stop offset="50%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#faf5ff"/>
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.1"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#f5f3ff"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="1160" height="80" rx="12" fill="url(#headerGrad2)" filter="url(#shadow2)"/>
+  <text x="60" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.8)">🤖</text>
+  <text x="85" y="55" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="white">AWS Enterprise Database Migration Analyzer AI v3.0</text>
+  <text x="60" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.7)">Professional-Grade Migration Analysis • AI-Powered Insights • Real-time AWS Integration</text>
+  
+  <!-- Tabs -->
+  <rect x="20" y="115" width="1160" height="40" rx="8" fill="white" filter="url(#shadow2)"/>
+  <text x="45" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">📊 Dashboard</text>
+  <rect x="130" y="120" width="100" height="30" rx="6" fill="url(#aiGrad)"/>
+  <text x="145" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="white">🧠 AI Insights</text>
+  <text x="255" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🌐 Network</text>
+  <text x="350" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">💰 Cost Analysis</text>
+  <text x="470" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">💻 OS Perf</text>
+  <text x="560" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🎯 Sizing</text>
+  <text x="635" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🗄️ FSx</text>
+  <text x="695" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">🤖 Agents</text>
+  <text x="775" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">📄 Reports</text>
+  
+  <!-- AI Section Header -->
+  <rect x="20" y="170" width="1160" height="60" rx="12" fill="url(#aiGrad)" filter="url(#shadow2)"/>
+  <text x="50" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.9)">🧠</text>
+  <text x="70" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="white">Claude AI Migration Analysis</text>
+  <text x="50" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)">Powered by Anthropic Claude 3.5 Sonnet • Enterprise-Grade Recommendations</text>
+  
+  <!-- AI Response Card -->
+  <rect x="20" y="245" width="760" height="435" rx="12" fill="white" filter="url(#shadow2)"/>
+  <rect x="20" y="245" width="760" height="4" rx="2" fill="url(#aiGrad)"/>
+  
+  <!-- AI Icon -->
+  <circle cx="55" cy="285" r="18" fill="#f3e8ff"/>
+  <text x="48" y="291" font-family="Segoe UI, Arial, sans-serif" font-size="16">🤖</text>
+  
+  <text x="85" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e293b">AI Migration Assessment</text>
+  <text x="85" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">Analysis completed in 2.3 seconds</text>
+  
+  <!-- AI Response Text -->
+  <text x="40" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#7c3aed">Executive Summary</text>
+  <text x="40" y="358" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Based on the analysis of your SQL Server database (500GB, 32GB RAM, 8 cores),</text>
+  <text x="40" y="375" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">I recommend migrating to Amazon RDS with the following configuration:</text>
+  
+  <text x="40" y="405" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#7c3aed">Recommended Architecture</text>
+  <text x="40" y="428" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">• Primary Instance: db.r5.xlarge (32GB memory, optimized for databases)</text>
+  <text x="40" y="448" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">• Storage: 500GB General Purpose SSD (gp3) with 3,000 IOPS</text>
+  <text x="40" y="468" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">• Multi-AZ Deployment: Enabled for high availability</text>
+  <text x="40" y="488" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">• Automated Backups: 7-day retention with point-in-time recovery</text>
+  
+  <text x="40" y="518" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#7c3aed">Risk Assessment</text>
+  <text x="40" y="541" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Migration complexity is rated LOW. Key considerations:</text>
+  <text x="40" y="561" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">• Database size is within optimal range for DMS migration</text>
+  <text x="40" y="581" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">• No unsupported features detected in current configuration</text>
+  <text x="40" y="601" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">• Estimated migration window: 8-12 hours with minimal downtime</text>
+  
+  <text x="40" y="631" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#7c3aed">Cost Optimization</text>
+  <text x="40" y="654" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Projected savings of 32% annually ($24,500) compared to current infrastructure.</text>
+  
+  <!-- Confidence Indicators -->
+  <rect x="795" y="245" width="385" height="200" rx="12" fill="white" filter="url(#shadow2)"/>
+  <text x="815" y="275" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e293b">AI Confidence Metrics</text>
+  
+  <!-- Confidence Bars -->
+  <text x="815" y="305" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">Architecture Recommendation</text>
+  <rect x="815" y="315" width="345" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="815" y="315" width="328" height="8" rx="4" fill="#10b981"/>
+  <text x="1130" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#10b981">95%</text>
+  
+  <text x="815" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">Cost Estimation Accuracy</text>
+  <rect x="815" y="360" width="345" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="815" y="360" width="311" height="8" rx="4" fill="#3b82f6"/>
+  <text x="1130" y="367" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#3b82f6">90%</text>
+  
+  <text x="815" y="395" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">Timeline Prediction</text>
+  <rect x="815" y="405" width="345" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="815" y="405" width="294" height="8" rx="4" fill="#8b5cf6"/>
+  <text x="1130" y="412" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#8b5cf6">85%</text>
+  
+  <!-- Key Insights -->
+  <rect x="795" y="460" width="385" height="220" rx="12" fill="url(#cardGrad2)" filter="url(#shadow2)"/>
+  <text x="815" y="490" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1e293b">🎯 Key AI Insights</text>
+  
+  <rect x="815" y="510" width="345" height="45" rx="8" fill="rgba(16,185,129,0.1)"/>
+  <text x="830" y="530" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#059669">✓ OPPORTUNITY</text>
+  <text x="830" y="545" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Reserved Instance pricing can save additional 40%</text>
+  
+  <rect x="815" y="565" width="345" height="45" rx="8" fill="rgba(245,158,11,0.1)"/>
+  <text x="830" y="585" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#d97706">⚠ CONSIDERATION</text>
+  <text x="830" y="600" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Plan maintenance window for minimal disruption</text>
+  
+  <rect x="815" y="620" width="345" height="45" rx="8" fill="rgba(59,130,246,0.1)"/>
+  <text x="830" y="640" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#2563eb">💡 RECOMMENDATION</text>
+  <text x="830" y="655" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Enable Performance Insights for optimization</text>
+</svg>
